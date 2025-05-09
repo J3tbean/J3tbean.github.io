@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<style>
+    ul.circle-list {
+      list-style-type: circle;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto;
+    }
+    form {
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    input[type=radio] {
+  accent-color:green;
+    }   
+    pre {
+        font-family: 'Times New Roman', sans-serif;
+    }
+    
+</style>
+
+<title>Page Title</title>
+
+</head>
+
+
+<body style="background-color: honeydew;">
+
+<!--Your HTML tags will start here-->
+
+
+<div style="text-align: center;">
+<img src="FAQ Stock Image.jpg" alt="stock image of the words Frequently Asked Questions on a notepad" width="400" height="250">
+
+<h4>Some quick navigation links!</h4>
+ <h4><pre>         <a href="index.html">Home </a>         <a href="table.html">Requirements</a>         <a href="FAQ.html">FAQ</a>         <a href="https://www.minecraft.net/en-us" target="_blank">Minecraft.net</a></pre></h4>
+</div>
+<div style="text-align: center;">
+  <br>
+  <h3>My server is super laggy! What do I do?</h3>
+  <p>This is the most common, yet trickiest question to answer. It can stem from many things, such as:</p>
+  <ul class="circle-list">
+    <li>You dont have enough RAM. Refer to the systems requirements page for numbers!</li>
+    <li>Too many players for your system requirements.</li>
+    <li>Outdated server software.</li>
+    <li>Running other programs that use system resources.</li>
+    <li>Your connection isnt sufficient. Slow internet on the server side causes everyone to lag.</li>
+  </ul> <br><br><br>
+
+  <h3>What if I want plugins or mods?</h3>
+  <p>This can make things tricky, but fear not! Some small technical know how and youll be there in no time. To install a modded server, you should download the Minecraft Forge server client. <br> Then, repeat the steps seen on the main page. Now you will have a mod folder to put your mods into!</p>
+  <p>Plugins can be a little tricky as well. The process is similar thankfully! You have to install a server software called Paper instead of Forge, repeating the same steps as before.</p><br><br><br>
+
+ <h2>Any more questions? Send me a message!</h2>
+
+  <form action="mailto:pelletig6362@student.faytechcc.edu" method="post" enctype="text/plain">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+  </form>
+</div>
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
